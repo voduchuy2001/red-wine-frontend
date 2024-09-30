@@ -1,11 +1,7 @@
-import { Button } from './components/ui/button'
+import DashboardLayout from './components/layouts/dashboard.layout'
 
 const App = () => {
-  return (
-    <div>
-      <Button>Button</Button>
-    </div>
-  )
+  return <DashboardLayout></DashboardLayout>
 }
 
 export default App
